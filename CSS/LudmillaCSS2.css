@@ -1,0 +1,30 @@
+﻿body {
+    background-image: url("https://www.escolhaviajar.com/wp-content/uploads/2021/05/2-algarve-camilo-1536x1024.jpg");
+}
+
+p  {
+    color: red;
+}
+
+label {
+    color: blue;
+}
+.RotuloSalario {
+    color: aqua;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
